@@ -1,0 +1,181 @@
+{
+  "id": "level_1",
+  "title": "Level 1: Foundation",
+  "description": "Essential survival skills, greetings, and basic sentence structures.",
+  "units": [
+    {
+      "id": "l1_u1",
+      "title": "Greetings & Basics",
+      "phrases": [
+        {
+          "id": "l1_u1_p1",
+          "english": "Hello (Universal)",
+          "bengali": "Assalamu Alaikum",
+          "script": "আসসালামু আলাইকুম",
+          "audio_natural": "l1_u1_p1_nat.m4a",
+          "audio_slow": "l1_u1_p1_slo.m4a",
+          "words": [
+            { "id": "l1_u1_p1_w1", "bengali": "Assalamu", "script": "আসসালামু", "audio": "l1_u1_p1_w1.m4a" },
+            { "id": "l1_u1_p1_w2", "bengali": "Alaikum", "script": "আলাইকুম", "audio": "l1_u1_p1_w2.m4a" }
+          ],
+          "literal": "Peace be upon you",
+          "culturalNote": "Used by Muslims and widely accepted as a polite greeting."
+        },
+        {
+          "id": "l1_u1_p2",
+          "english": "How are you? (Formal)",
+          "bengali": "Kemon achen?",
+          "script": "কেমন আছেন?",
+          "audio_natural": "l1_u1_p2_nat.m4a",
+          "audio_slow": "l1_u1_p2_slo.m4a",
+          "words": [
+            { "id": "l1_u1_p2_w1", "bengali": "Kemon", "script": "কেমন", "audio": "l1_u1_p2_w1.m4a" },
+            { "id": "l1_u1_p2_w2", "bengali": "achen?", "script": "আছেন?", "audio": "l1_u1_p2_w2.m4a" }
+          ],
+          "isFormal": true,
+          "culturalNote": "Use with elders or strangers."
+        },
+        {
+          "id": "l1_u1_p3",
+          "english": "How are you? (Informal)",
+          "bengali": "Kemon acho?",
+          "script": "কেমন আছো?",
+          "audio_natural": "l1_u1_p3_nat.m4a",
+          "audio_slow": "l1_u1_p3_slo.m4a",
+          "words": [
+            { "id": "l1_u1_p3_w1", "bengali": "Kemon", "script": "কেমন", "audio": "l1_u1_p3_w1.m4a" },
+            { "id": "l1_u1_p3_w2", "bengali": "acho?", "script": "আছো?", "audio": "l1_u1_p3_w2.m4a" }
+          ],
+          "isFormal": false,
+          "culturalNote": "Use with friends and younger people."
+        },
+        {
+          "id": "l1_u1_p4",
+          "english": "I am fine",
+          "bengali": "Bhalo achi",
+          "script": "ভালো আছি",
+          "audio_natural": "l1_u1_p4_nat.m4a",
+          "audio_slow": "l1_u1_p4_slo.m4a",
+          "words": [
+            { "id": "l1_u1_p4_w1", "bengali": "Bhalo", "script": "ভালো", "audio": "l1_u1_p4_w1.m4a" },
+            { "id": "l1_u1_p4_w2", "bengali": "achi", "script": "আছি", "audio": "l1_u1_p4_w2.m4a" }
+          ]
+        },
+        {
+          "id": "l1_u1_p5",
+          "english": "Thank you",
+          "bengali": "Dhonnobad",
+          "script": "ধন্যবাদ",
+          "audio_natural": "l1_u1_p5_nat.m4a",
+          "audio_slow": "l1_u1_p5_slo.m4a",
+          "words": [
+            { "id": "l1_u1_p5_w1", "bengali": "Dhonnobad", "script": "ধন্যবাদ", "audio": "l1_u1_p5_w1.m4a" }
+          ]
+        },
+        {
+          "id": "l1_u1_p6",
+          "english": "Yes (Polite)",
+          "bengali": "Ji",
+          "script": "জি",
+          "audio_natural": "l1_u1_p6_nat.m4a",
+          "audio_slow": "l1_u1_p6_slo.m4a",
+          "words": [
+            { "id": "l1_u1_p6_w1", "bengali": "Ji", "script": "জি", "audio": "l1_u1_p6_w1.m4a" }
+          ],
+           "culturalNote": "Use 'Hain' for casual yes."
+        },
+        {
+          "id": "l1_u1_p7",
+          "english": "No",
+          "bengali": "Na",
+          "script": "না",
+          "audio_natural": "l1_u1_p7_nat.m4a",
+          "audio_slow": "l1_u1_p7_slo.m4a",
+          "words": [
+            { "id": "l1_u1_p7_w1", "bengali": "Na", "script": "না", "audio": "l1_u1_p7_w1.m4a" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l1_u2",
+      "title": "Introductions",
+      "phrases": [
+        {
+          "id": "l1_u2_p1",
+          "english": "My name is...",
+          "bengali": "Amar naam...",
+          "script": "আমার নাম...",
+          "audio_natural": "l1_u2_p1_nat.m4a",
+          "audio_slow": "l1_u2_p1_slo.m4a",
+          "words": [
+             { "id": "l1_u2_p1_w1", "bengali": "Amar", "script": "আমার", "audio": "l1_u2_p1_w1.m4a" },
+             { "id": "l1_u2_p1_w2", "bengali": "naam...", "script": "নাম...", "audio": "l1_u2_p1_w2.m4a" }
+          ]
+        },
+        {
+          "id": "l1_u2_p2",
+          "english": "What is your name? (Formal)",
+          "bengali": "Apnar naam ki?",
+          "script": "আপনার নাম কি?",
+          "audio_natural": "l1_u2_p2_nat.m4a",
+          "audio_slow": "l1_u2_p2_slo.m4a",
+          "words": [
+            { "id": "l1_u2_p2_w1", "bengali": "Apnar", "script": "আপনার", "audio": "l1_u2_p2_w1.m4a" },
+            { "id": "l1_u2_p2_w2", "bengali": "naam", "script": "নাম", "audio": "l1_u2_p2_w2.m4a" },
+            { "id": "l1_u2_p2_w3", "bengali": "ki?", "script": "কি?", "audio": "l1_u2_p2_w3.m4a" }
+          ],
+          "isFormal": true
+        },
+        {
+          "id": "l1_u2_p3",
+          "english": "I am from...",
+          "bengali": "Aami ... theke eshechi",
+          "script": "আমি ... থেকে এসেছি",
+          "audio_natural": "l1_u2_p3_nat.m4a",
+          "audio_slow": "l1_u2_p3_slo.m4a",
+          "words": [
+             { "id": "l1_u2_p3_w1", "bengali": "Aami", "script": "আমি", "audio": "l1_u2_p3_w1.m4a" },
+             { "id": "l1_u2_p3_w2", "bengali": "...", "script": "...", "audio": "l1_u2_p3_w2.m4a" },
+             { "id": "l1_u2_p3_w3", "bengali": "theke", "script": "থেকে", "audio": "l1_u2_p3_w3.m4a" },
+             { "id": "l1_u2_p3_w4", "bengali": "eshechi", "script": "এসেছি", "audio": "l1_u2_p3_w4.m4a" }
+          ]
+        },
+        {
+          "id": "l1_u2_p4",
+          "english": "Nice to meet you",
+          "bengali": "Apnar shathe porichoy hoye bhalo laglo",
+          "script": "আপনার সাথে পরিচয় হয়ে ভালো লাগলো",
+          "audio_natural": "l1_u2_p4_nat.m4a",
+          "audio_slow": "l1_u2_p4_slo.m4a",
+          "words": [
+             { "id": "l1_u2_p4_w1", "bengali": "Apnar", "script": "আপনার", "audio": "l1_u2_p4_w1.m4a" },
+             { "id": "l1_u2_p4_w2", "bengali": "shathe", "script": "সাথে", "audio": "l1_u2_p4_w2.m4a" },
+             { "id": "l1_u2_p4_w3", "bengali": "porichoy", "script": "পরিচয়", "audio": "l1_u2_p4_w3.m4a" },
+             { "id": "l1_u2_p4_w4", "bengali": "hoye", "script": "হয়ে", "audio": "l1_u2_p4_w4.m4a" },
+             { "id": "l1_u2_p4_w5", "bengali": "bhalo", "script": "ভালো", "audio": "l1_u2_p4_w5.m4a" },
+             { "id": "l1_u2_p4_w6", "bengali": "laglo", "script": "লাগলো", "audio": "l1_u2_p4_w6.m4a" }
+          ]
+        }
+      ]
+    },
+    { "id": "l1_u3", "title": "Numbers (1-10)", "phrases": [] },
+    { "id": "l1_u4", "title": "Essential Shopping", "phrases": [] },
+    { "id": "l1_u5", "title": "Food & Dining", "phrases": [] },
+    { "id": "l1_u6", "title": "Directions", "phrases": [] },
+    { "id": "l1_u7", "title": "Family & Elders", "phrases": [] },
+    { "id": "l1_u8", "title": "Colors & Descriptions", "phrases": [] },
+    { "id": "l1_u9", "title": "Common Verbs 1", "phrases": [] },
+    { "id": "l1_u10", "title": "Common Verbs 2", "phrases": [] },
+    { "id": "l1_u11", "title": "Time of Day", "phrases": [] },
+    { "id": "l1_u12", "title": "Days of the Week", "phrases": [] },
+    { "id": "l1_u13", "title": "Basic Questions (Who/What/When)", "phrases": [] },
+    { "id": "l1_u14", "title": "Simple Sentence Construction", "phrases": [] },
+    { "id": "l1_u15", "title": "Pronouns (I/You/He/She)", "phrases": [] },
+    { "id": "l1_u16", "title": "Possessives (My/Your)", "phrases": [] },
+    { "id": "l1_u17", "title": "Negation (Not/No)", "phrases": [] },
+    { "id": "l1_u18", "title": "Feelings (Happy/Sad/Tired)", "phrases": [] },
+    { "id": "l1_u19", "title": "Emergencies", "phrases": [] },
+    { "id": "l1_u20", "title": "Level 1 Review", "phrases": [] }
+  ]
+}

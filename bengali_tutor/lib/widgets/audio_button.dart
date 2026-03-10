@@ -6,18 +6,21 @@ class AudioButton extends StatelessWidget {
   final String textToSpeak;
   final Color? color;
 
-  const AudioButton({
-    Key? key,
-    required this.textToSpeak,
-    this.color,
-  }) : super(key: key);
+  const AudioButton({Key? key, required this.textToSpeak, this.color})
+    : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      icon: Icon(Icons.volume_up, color: color ?? Theme.of(context).primaryColor),
+      icon: Icon(
+        Icons.volume_up,
+        color: color ?? Theme.of(context).primaryColor,
+      ),
       onPressed: () {
-        Provider.of<AppProvider>(context, listen: false).speak(textToSpeak);
+        Provider.of<AppProvider>(
+          context,
+          listen: false,
+        ).playScript(textToSpeak);
       },
     );
   }

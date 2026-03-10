@@ -1,0 +1,27 @@
+{
+  "id": "level_3",
+  "title": "Level 3: Conversational",
+  "description": "Connecting ideas, expressing feelings, and full dialogues.",
+  "units": [
+    { "id": "l3_u1", "title": "Connecting Words (But/Because/So)", "phrases": [] },
+    { "id": "l3_u2", "title": "Expressing Opinions", "phrases": [] },
+    { "id": "l3_u3", "title": "Likes & Dislikes (Advanced)", "phrases": [] },
+    { "id": "l3_u4", "title": "Emotions & Feelings", "phrases": [] },
+    { "id": "l3_u5", "title": "Talking about Work", "phrases": [] },
+    { "id": "l3_u6", "title": "Talking about Studies", "phrases": [] },
+    { "id": "l3_u7", "title": "Phone Conversations", "phrases": [] },
+    { "id": "l3_u8", "title": "Chatting Online", "phrases": [] },
+    { "id": "l3_u9", "title": "Inviting Friends", "phrases": [] },
+    { "id": "l3_u10", "title": "Accepting & Declining", "phrases": [] },
+    { "id": "l3_u11", "title": "Giving Advice", "phrases": [] },
+    { "id": "l3_u12", "title": "Comparing Things", "phrases": [] },
+    { "id": "l3_u13", "title": "Storytelling Basics", "phrases": [] },
+    { "id": "l3_u14", "title": "If/Then Statements", "phrases": [] },
+    { "id": "l3_u15", "title": "Festivals & Culture", "phrases": [] },
+    { "id": "l3_u16", "title": "Visiting a Home", "phrases": [] },
+    { "id": "l3_u17", "title": "Compliments & Gratitude", "phrases": [] },
+    { "id": "l3_u18", "title": "Apologies & Regrets", "phrases": [] },
+    { "id": "l3_u19", "title": "Idioms & Slang", "phrases": [] },
+    { "id": "l3_u20", "title": "Full Conversation Practice", "phrases": [] }
+  ]
+}

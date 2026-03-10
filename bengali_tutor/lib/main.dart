@@ -9,18 +9,16 @@ import 'screens/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
   // Initialize services
   final prefs = await SharedPreferences.getInstance();
   final progressService = ProgressService(prefs);
-  final ttsService = TtsService();
+  // TtsService is now managed internally by AppProvider
 
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(
-          create: (_) => AppProvider(progressService, ttsService),
-        ),
+        ChangeNotifierProvider(create: (_) => AppProvider(progressService)),
       ],
       child: const BengaliTutorApp(),
     ),
@@ -47,7 +45,9 @@ class BengaliTutorApp extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             backgroundColor: Colors.teal,
             foregroundColor: Colors.white,
-            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(8),
+            ),
           ),
         ),
       ),

@@ -21,7 +21,7 @@ class TtsService {
       }
     }
     
-    await _flutterTts.setSpeechRate(0.5); // Slower rate for beginners
+    await _flutterTts.setSpeechRate(0.1); // Slower rate for beginners
     await _flutterTts.setVolume(1.0);
     await _flutterTts.setPitch(1.0);
   }
