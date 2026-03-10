@@ -3,6 +3,7 @@ import '../models/content_models.dart';
 import '../services/progress_service.dart';
 import '../services/content_service.dart';
 import '../services/audio_service.dart';
+import 'dart:math';
 
 import '../data/scenario_data.dart';
 
@@ -43,7 +44,6 @@ class AppProvider with ChangeNotifier {
   }
 
   // Progress
-  // Reusing "markTopicComplete" for Units since they share ID structure
   bool isUnitCompleted(String id) => _progressService.isTopicCompleted(id);
 
   Future<void> completeUnit(String id) async {
@@ -71,7 +71,6 @@ class AppProvider with ChangeNotifier {
         }
       }
     }
-    // If all completed, return nothing (or maybe the last one for review)
     return null;
   }
 
@@ -89,9 +88,53 @@ class AppProvider with ChangeNotifier {
     return true; // Should not happen if ID exists
   }
 
+  // Practice Session Logic
+  List<Phrase> generatePracticeSession(Unit currentUnit) {
+    List<Phrase> sessionPhrases = [];
+
+    // 1. Add all phrases from current unit
+    sessionPhrases.addAll(currentUnit.phrases);
+
+    // 2. Add random review phrases from previous units (Spiral Learning)
+    final reviewPhrases = _getReviewPhrases(currentUnit.id);
+    sessionPhrases.addAll(reviewPhrases);
+
+    // 3. Shuffle
+    sessionPhrases.shuffle(Random());
+
+    return sessionPhrases;
+  }
+
+  List<Phrase> _getReviewPhrases(String currentUnitId) {
+    List<Phrase> availableForReview = [];
+
+    for (var level in _levels) {
+      for (var unit in level.units) {
+        if (unit.id == currentUnitId) return _pickRandom(availableForReview, 3);
+
+        if (isUnitCompleted(unit.id)) {
+          availableForReview.addAll(unit.phrases);
+        }
+      }
+    }
+    return _pickRandom(availableForReview, 3);
+  }
+
+  List<Phrase> _pickRandom(List<Phrase> source, int count) {
+    if (source.isEmpty) return [];
+    source.shuffle();
+    return source.take(count).toList();
+  }
+
   // Audio Proxy
   Future<void> playPhrase(Phrase phrase, {bool slow = false}) async {
     await _audioService.playPhrase(phrase, slow: slow);
+  }
+
+  Future<void> playPrompt(Phrase phrase) async {
+    if (phrase.prompt != null) {
+      await _audioService.playScript(phrase.prompt!.script);
+    }
   }
 
   Future<void> playWord(Word word) async {

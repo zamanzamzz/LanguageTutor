@@ -41,6 +41,29 @@ class Unit {
   }
 }
 
+class Prompt {
+  final String english;
+  final String bengali; // Transliterated
+  final String script;
+  final String? audio;
+
+  Prompt({
+    required this.english,
+    required this.bengali,
+    required this.script,
+    this.audio,
+  });
+
+  factory Prompt.fromJson(Map<String, dynamic> json) {
+    return Prompt(
+      english: json['english'],
+      bengali: json['bengali'],
+      script: json['script'],
+      audio: json['audio'],
+    );
+  }
+}
+
 class Phrase {
   final String id;
   final String english;
@@ -52,6 +75,7 @@ class Phrase {
   final String? literal;
   final String? culturalNote;
   final bool isFormal;
+  final Prompt? prompt; // The question/cue for this phrase
 
   Phrase({
     required this.id,
@@ -64,6 +88,7 @@ class Phrase {
     this.literal,
     this.culturalNote,
     this.isFormal = false,
+    this.prompt,
   });
 
   factory Phrase.fromJson(Map<String, dynamic> json) {
@@ -71,8 +96,7 @@ class Phrase {
       id: json['id'],
       english: json['english'],
       bengali: json['bengali'],
-      bengaliScript:
-          json['script'] ?? json['bengaliScript'], // Support both for migration
+      bengaliScript: json['script'] ?? json['bengaliScript'],
       audioPathNatural: json['audio_natural'],
       audioPathSlow: json['audio_slow'],
       words:
@@ -80,6 +104,7 @@ class Phrase {
       literal: json['literal'],
       culturalNote: json['culturalNote'],
       isFormal: json['isFormal'] ?? false,
+      prompt: json['prompt'] != null ? Prompt.fromJson(json['prompt']) : null,
     );
   }
 }
@@ -108,7 +133,6 @@ class Word {
 }
 
 // Keep existing Scenario models for Roleplay mode compatibility
-// We might migrate these to JSON later as well.
 
 enum Difficulty { beginner, intermediate, advanced }
 

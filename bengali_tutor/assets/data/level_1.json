@@ -7,133 +7,133 @@
       "id": "l1_u1",
       "title": "Greetings & Basics",
       "phrases": [
-        { "id": "l1_u1_p1", "english": "Hello (Universal)", "bengali": "Assalamu Alaikum", "script": "আসসালামু আলাইকুম", "culturalNote": "Universal polite greeting." },
-        { "id": "l1_u1_p2", "english": "How are you? (Formal)", "bengali": "Kemon achen?", "script": "কেমন আছেন?", "isFormal": true },
-        { "id": "l1_u1_p3", "english": "How are you? (Informal)", "bengali": "Kemon acho?", "script": "কেমন আছো?", "isFormal": false },
-        { "id": "l1_u1_p4", "english": "I am fine", "bengali": "Bhalo achi", "script": "ভালো আছি" },
-        { "id": "l1_u1_p5", "english": "Thank you", "bengali": "Dhonnobad", "script": "ধন্যবাদ" },
-        { "id": "l1_u1_p6", "english": "Yes (Polite)", "bengali": "Ji", "script": "জি" },
-        { "id": "l1_u1_p7", "english": "No", "bengali": "Na", "script": "না" },
-        { "id": "l1_u1_p8", "english": "Excuse me / Sorry", "bengali": "Maaf korben", "script": "মাফ করবেন", "literal": "Please forgive me" },
-        { "id": "l1_u1_p9", "english": "See you again", "bengali": "Abar dekha hobe", "script": "আবার দেখা হবে", "words": [
+        { "id": "l1_u1_p1", "english": "Hello (Universal)", "bengali": "Assalamu Alaikum", "script": "আসসালামু আলাইকুম", "prompt": { "english": "Say hello politely", "bengali": "Shombhashon", "script": "সম্ভাষণ" }, "culturalNote": "Universal polite greeting." },
+        { "id": "l1_u1_p2", "english": "How are you? (Formal)", "bengali": "Kemon achen?", "script": "কেমন আছেন?", "prompt": { "english": "Ask an elder: How are you?", "bengali": "Apni kemon achen?", "script": "আপনি কেমন আছেন?" }, "isFormal": true },
+        { "id": "l1_u1_p3", "english": "How are you? (Informal)", "bengali": "Kemon acho?", "script": "কেমন আছো?", "prompt": { "english": "Ask a friend: How are you?", "bengali": "Tumi kemon acho?", "script": "তুমি কেমন আছো?" }, "isFormal": false },
+        { "id": "l1_u1_p4", "english": "I am fine", "bengali": "Bhalo achi", "script": "ভালো আছি", "prompt": { "english": "Reply: I am fine", "bengali": "Kemon achen?", "script": "কেমন আছেন?" } },
+        { "id": "l1_u1_p5", "english": "Thank you", "bengali": "Dhonnobad", "script": "ধন্যবাদ", "prompt": { "english": "Say: Thank you", "bengali": "Kritoggota", "script": "কৃতজ্ঞতা" } },
+        { "id": "l1_u1_p6", "english": "Yes (Polite)", "bengali": "Ji", "script": "জি", "prompt": { "english": "Say: Yes (Polite)", "bengali": "Hae / Na?", "script": "হ্যাঁ / না?" } },
+        { "id": "l1_u1_p7", "english": "No", "bengali": "Na", "script": "না", "prompt": { "english": "Say: No", "bengali": "Hae / Na?", "script": "হ্যাঁ / না?" } },
+        { "id": "l1_u1_p8", "english": "Excuse me / Sorry", "bengali": "Maaf korben", "script": "মাফ করবেন", "prompt": { "english": "Apologize / Get attention", "bengali": "Khoma chan", "script": "ক্ষমা চান" }, "literal": "Please forgive me" },
+        { "id": "l1_u1_p9", "english": "See you again", "bengali": "Abar dekha hobe", "script": "আবার দেখা হবে", "prompt": { "english": "Say: See you again", "bengali": "Biday", "script": "বিদায়" }, "words": [
           { "id": "l1_u1_p9_w1", "bengali": "Abar", "script": "আবার" },
           { "id": "l1_u1_p9_w2", "bengali": "dekha", "script": "দেখা" },
           { "id": "l1_u1_p9_w3", "bengali": "hobe", "script": "হবে" }
         ]},
-        { "id": "l1_u1_p10", "english": "Goodbye", "bengali": "Khoda Hafez", "script": "খোদা হাফেজ", "culturalNote": "Commonly used in Bangladesh when leaving." }
+        { "id": "l1_u1_p10", "english": "Goodbye", "bengali": "Khoda Hafez", "script": "খোদা হাফেজ", "prompt": { "english": "Say: Goodbye", "bengali": "Biday", "script": "বিদায়" }, "culturalNote": "Commonly used in Bangladesh when leaving." }
       ]
     },
     {
       "id": "l1_u2",
       "title": "Introductions",
       "phrases": [
-        { "id": "l1_u2_p1", "english": "My name is...", "bengali": "Amar naam...", "script": "আমার নাম..." },
-        { "id": "l1_u2_p2", "english": "What is your name? (Formal)", "bengali": "Apnar naam ki?", "script": "আপনার নাম কি?", "isFormal": true },
-        { "id": "l1_u2_p3", "english": "I am from...", "bengali": "Aami ... theke eshechi", "script": "আমি ... থেকে এসেছি" },
-        { "id": "l1_u2_p4", "english": "Nice to meet you", "bengali": "Apnar shathe porichoy hoye bhalo laglo", "script": "আপনার সাথে পরিচয় হয়ে ভালো লাগলো" },
-        { "id": "l1_u2_p5", "english": "What is your name? (Informal)", "bengali": "Tomar naam ki?", "script": "তোমার নাম কি?", "isFormal": false },
-        { "id": "l1_u2_p6", "english": "What do you do? (Formal)", "bengali": "Apni ki koren?", "script": "আপনি কি করেন?", "isFormal": true },
-        { "id": "l1_u2_p7", "english": "I am a student", "bengali": "Aami ekjon chhatro", "script": "আমি একজন ছাত্র" },
-        { "id": "l1_u2_p8", "english": "Where do you live? (Formal)", "bengali": "Apni kothay thaken?", "script": "আপনি কোথায় থাকেন?", "isFormal": true },
-        { "id": "l1_u2_p9", "english": "I live in [City]", "bengali": "Aami [City]-te thaki", "script": "আমি [City]-তে থাকি" },
-        { "id": "l1_u2_p10", "english": "Who is he/she?", "bengali": "Uni ke?", "script": "উনি কে?", "culturalNote": "Using 'Uni' is the respectful way to refer to someone older or a stranger." }
+        { "id": "l1_u2_p1", "english": "My name is...", "bengali": "Amar naam...", "script": "আমার নাম...", "prompt": { "english": "Say: My name is...", "bengali": "Apnar naam ki?", "script": "আপনার নাম কি?" } },
+        { "id": "l1_u2_p2", "english": "What is your name? (Formal)", "bengali": "Apnar naam ki?", "script": "আপনার নাম কি?", "prompt": { "english": "Ask: What is your name? (Formal)", "bengali": "Porichoy", "script": "পরিচয়" }, "isFormal": true },
+        { "id": "l1_u2_p3", "english": "I am from...", "bengali": "Aami ... theke eshechi", "script": "আমি ... থেকে এসেছি", "prompt": { "english": "Say: I am from...", "bengali": "Apni kotha theke eshechen?", "script": "আপনি কোথা থেকে এসেছেন?" } },
+        { "id": "l1_u2_p4", "english": "Nice to meet you", "bengali": "Apnar shathe porichoy hoye bhalo laglo", "script": "আপনার সাথে পরিচয় হয়ে ভালো লাগলো", "prompt": { "english": "Say: Nice to meet you", "bengali": "Porichoy", "script": "পরিচয়" } },
+        { "id": "l1_u2_p5", "english": "What is your name? (Informal)", "bengali": "Tomar naam ki?", "script": "তোমার নাম কি?", "prompt": { "english": "Ask a friend: What is your name?", "bengali": "Porichoy", "script": "পরিচয়" }, "isFormal": false },
+        { "id": "l1_u2_p6", "english": "What do you do? (Formal)", "bengali": "Apni ki koren?", "script": "আপনি কি করেন?", "prompt": { "english": "Ask: What do you do?", "bengali": "Pesha", "script": "পেশা" }, "isFormal": true },
+        { "id": "l1_u2_p7", "english": "I am a student", "bengali": "Aami ekjon chhatro", "script": "আমি একজন ছাত্র", "prompt": { "english": "Say: I am a student", "bengali": "Apni ki koren?", "script": "আপনি কি করেন?" } },
+        { "id": "l1_u2_p8", "english": "Where do you live? (Formal)", "bengali": "Apni kothay thaken?", "script": "আপনি কোথায় থাকেন?", "prompt": { "english": "Ask: Where do you live?", "bengali": "Thikana", "script": "ঠিকানা" }, "isFormal": true },
+        { "id": "l1_u2_p9", "english": "I live in [City]", "bengali": "Aami [City]-te thaki", "script": "আমি [City]-তে থাকি", "prompt": { "english": "Say: I live in [City]", "bengali": "Apni kothay thaken?", "script": "আপনি কোথায় থাকেন?" } },
+        { "id": "l1_u2_p10", "english": "Who is he/she?", "bengali": "Uni ke?", "script": "উনি কে?", "prompt": { "english": "Ask: Who is he/she?", "bengali": "Porichoy", "script": "পরিচয়" }, "culturalNote": "Using 'Uni' is the respectful way to refer to someone older or a stranger." }
       ]
     },
     {
       "id": "l1_u3",
       "title": "Numbers (1-10) & Counting",
       "phrases": [
-        { "id": "l1_u3_p1", "english": "One", "bengali": "Ek", "script": "এক" },
-        { "id": "l1_u3_p2", "english": "Two", "bengali": "Dui", "script": "দুই" },
-        { "id": "l1_u3_p3", "english": "Three", "bengali": "Teen", "script": "তিন" },
-        { "id": "l1_u3_p4", "english": "Four", "bengali": "Char", "script": "চার" },
-        { "id": "l1_u3_p5", "english": "Five", "bengali": "Paanch", "script": "পাঁচ" },
-        { "id": "l1_u3_p6", "english": "Six", "bengali": "Choy", "script": "ছয়" },
-        { "id": "l1_u3_p7", "english": "Seven", "bengali": "Saat", "script": "সাত" },
-        { "id": "l1_u3_p8", "english": "Eight", "bengali": "Aat", "script": "আট" },
-        { "id": "l1_u3_p9", "english": "Nine", "bengali": "Noy", "script": "নয়" },
-        { "id": "l1_u3_p10", "english": "Ten", "bengali": "Dosh", "script": "দশ" },
-        { "id": "l1_u3_p11", "english": "How many?", "bengali": "Koita?", "script": "কয়টা?", "culturalNote": "Used when counting items." }
+        { "id": "l1_u3_p1", "english": "One", "bengali": "Ek", "script": "এক", "prompt": { "english": "Number: 1", "bengali": "Shongkha", "script": "সংখ্যা" } },
+        { "id": "l1_u3_p2", "english": "Two", "bengali": "Dui", "script": "দুই", "prompt": { "english": "Number: 2", "bengali": "Shongkha", "script": "সংখ্যা" } },
+        { "id": "l1_u3_p3", "english": "Three", "bengali": "Teen", "script": "তিন", "prompt": { "english": "Number: 3", "bengali": "Shongkha", "script": "সংখ্যা" } },
+        { "id": "l1_u3_p4", "english": "Four", "bengali": "Char", "script": "চার", "prompt": { "english": "Number: 4", "bengali": "Shongkha", "script": "সংখ্যা" } },
+        { "id": "l1_u3_p5", "english": "Five", "bengali": "Paanch", "script": "পাঁচ", "prompt": { "english": "Number: 5", "bengali": "Shongkha", "script": "সংখ্যা" } },
+        { "id": "l1_u3_p6", "english": "Six", "bengali": "Choy", "script": "ছয়", "prompt": { "english": "Number: 6", "bengali": "Shongkha", "script": "সংখ্যা" } },
+        { "id": "l1_u3_p7", "english": "Seven", "bengali": "Saat", "script": "সাত", "prompt": { "english": "Number: 7", "bengali": "Shongkha", "script": "সংখ্যা" } },
+        { "id": "l1_u3_p8", "english": "Eight", "bengali": "Aat", "script": "আট", "prompt": { "english": "Number: 8", "bengali": "Shongkha", "script": "সংখ্যা" } },
+        { "id": "l1_u3_p9", "english": "Nine", "bengali": "Noy", "script": "নয়", "prompt": { "english": "Number: 9", "bengali": "Shongkha", "script": "সংখ্যা" } },
+        { "id": "l1_u3_p10", "english": "Ten", "bengali": "Dosh", "script": "দশ", "prompt": { "english": "Number: 10", "bengali": "Shongkha", "script": "সংখ্যা" } },
+        { "id": "l1_u3_p11", "english": "How many?", "bengali": "Koita?", "script": "কয়টা?", "prompt": { "english": "Ask: How many?", "bengali": "Proshno", "script": "প্রশ্ন" }, "culturalNote": "Used when counting items." }
       ]
     },
     {
       "id": "l1_u4",
       "title": "Essential Shopping",
       "phrases": [
-        { "id": "l1_u4_p1", "english": "How much is this?", "bengali": "Eitar dam koto?", "script": "এটার দাম কত?" },
-        { "id": "l1_u4_p2", "english": "I want this", "bengali": "Aami eta chai", "script": "আমি এটা চাই" },
-        { "id": "l1_u4_p3", "english": "I don't want this", "bengali": "Aami eta chai na", "script": "আমি এটা চাই না" },
-        { "id": "l1_u4_p4", "english": "It is very expensive", "bengali": "Onek dam", "script": "অনেক দাম" },
-        { "id": "l1_u4_p5", "english": "Can you lower the price?", "bengali": "Ektu kom rakhen?", "script": "একটু কম রাখেন?", "culturalNote": "Common way to start bargaining." },
-        { "id": "l1_u4_p6", "english": "Do you have a bag?", "bengali": "Bag ache?", "script": "ব্যাগ আছে?" },
-        { "id": "l1_u4_p7", "english": "I like this color", "bengali": "Amar ei rong-ta pochondo", "script": "আমার এই রঙটা পছন্দ" },
-        { "id": "l1_u4_p8", "english": "Where is the market?", "bengali": "Bazar kothay?", "script": "বাজার কোথায়?" },
-        { "id": "l1_u4_p9", "english": "Give me this one", "bengali": "Ei-ta den", "script": "এইটা দেন" },
-        { "id": "l1_u4_p10", "english": "Keep the change", "bengali": "Baki-ta rakhen", "script": "বাকিটা রাখেন" }
+        { "id": "l1_u4_p1", "english": "How much is this?", "bengali": "Eitar dam koto?", "script": "এটার দাম কত?", "prompt": { "english": "Ask: How much is this?", "bengali": "Dam koto?", "script": "দাম কত?" } },
+        { "id": "l1_u4_p2", "english": "I want this", "bengali": "Aami eta chai", "script": "আমি এটা চাই", "prompt": { "english": "Say: I want this", "bengali": "Kenakata", "script": "কেনাকাটা" } },
+        { "id": "l1_u4_p3", "english": "I don't want this", "bengali": "Aami eta chai na", "script": "আমি এটা চাই না", "prompt": { "english": "Say: I don't want this", "bengali": "Kenakata", "script": "কেনাকাটা" } },
+        { "id": "l1_u4_p4", "english": "It is very expensive", "bengali": "Onek dam", "script": "অনেক দাম", "prompt": { "english": "Complain: It is very expensive", "bengali": "Dam koto?", "script": "দাম কত?" } },
+        { "id": "l1_u4_p5", "english": "Can you lower the price?", "bengali": "Ektu kom rakhen?", "script": "একটু কম রাখেন?", "prompt": { "english": "Ask to lower the price", "bengali": "Dam koman", "script": "দাম কমান" }, "culturalNote": "Common way to start bargaining." },
+        { "id": "l1_u4_p6", "english": "Do you have a bag?", "bengali": "Bag ache?", "script": "ব্যাগ আছে?", "prompt": { "english": "Ask: Do you have a bag?", "bengali": "Bag lagbe", "script": "ব্যাগ লাগবে" } },
+        { "id": "l1_u4_p7", "english": "I like this color", "bengali": "Amar ei rong-ta pochondo", "script": "আমার এই রঙটা পছন্দ", "prompt": { "english": "Say: I like this color", "bengali": "Pochondo", "script": "পছন্দ" } },
+        { "id": "l1_u4_p8", "english": "Where is the market?", "bengali": "Bazar kothay?", "script": "বাজার কোথায়?", "prompt": { "english": "Ask: Where is the market?", "bengali": "Thikana", "script": "ঠিকানা" } },
+        { "id": "l1_u4_p9", "english": "Give me this one", "bengali": "Ei-ta den", "script": "এইটা দেন", "prompt": { "english": "Say: Give me this one", "bengali": "Kenakata", "script": "কেনাকাটা" } },
+        { "id": "l1_u4_p10", "english": "Keep the change", "bengali": "Baki-ta rakhen", "script": "বাকিটা রাখেন", "prompt": { "english": "Say: Keep the change", "bengali": "Bill", "script": "বিল" } }
       ]
     },
     {
       "id": "l1_u5",
       "title": "Food & Dining",
       "phrases": [
-        { "id": "l1_u5_p1", "english": "I am hungry", "bengali": "Amar khid-e peyeche", "script": "আমার খিদে পেয়েছে" },
-        { "id": "l1_u5_p2", "english": "Give me water", "bengali": "Paani den", "script": "পানি দেন" },
-        { "id": "l1_u5_p3", "english": "The food is delicious", "bengali": "Khabar-ta khub moja", "script": "খাবারটা খুব মজা" },
-        { "id": "l1_u5_p4", "english": "Less spicy, please", "bengali": "Jhal kom den", "script": "ঝাল কম দেন" },
-        { "id": "l1_u5_p5", "english": "I want tea", "bengali": "Aami cha khabo", "script": "আমি চা খাবো" },
-        { "id": "l1_u5_p6", "english": "With sugar", "bengali": "Chini diye", "script": "চিনি দিয়ে" },
-        { "id": "l1_u5_p7", "english": "Without sugar", "bengali": "Chini chara", "script": "চিনি ছাড়া" },
-        { "id": "l1_u5_p8", "english": "Check/Bill please", "bengali": "Bill-ta den", "script": "বিলটা দেন" },
-        { "id": "l1_u5_p9", "english": "I don't eat meat", "bengali": "Aami mangsho khai na", "script": "আমি মাংস খাই না" },
-        { "id": "l1_u5_p10", "english": "Sit here", "bengali": "Eikhane boshen", "script": "এইখানে বসেন" }
+        { "id": "l1_u5_p1", "english": "I am hungry", "bengali": "Amar khid-e peyeche", "script": "আমার খিদে পেয়েছে", "prompt": { "english": "Say: I am hungry", "bengali": "Khida", "script": "খিদে" } },
+        { "id": "l1_u5_p2", "english": "Give me water", "bengali": "Paani den", "script": "পানি দেন", "prompt": { "english": "Ask for water", "bengali": "Paani", "script": "পানি" } },
+        { "id": "l1_u5_p3", "english": "The food is delicious", "bengali": "Khabar-ta khub moja", "script": "খাবারটা খুব মজা", "prompt": { "english": "Compliment the food", "bengali": "Khabar kemon?", "script": "খাবার কেমন?" } },
+        { "id": "l1_u5_p4", "english": "Less spicy, please", "bengali": "Jhal kom den", "script": "ঝাল কম দেন", "prompt": { "english": "Request: Less spicy", "bengali": "Jhal", "script": "ঝাল" } },
+        { "id": "l1_u5_p5", "english": "I want tea", "bengali": "Aami cha khabo", "script": "আমি চা খাবো", "prompt": { "english": "Say: I want tea", "bengali": "Cha", "script": "চা" } },
+        { "id": "l1_u5_p6", "english": "With sugar", "bengali": "Chini diye", "script": "চিনি দিয়ে", "prompt": { "english": "Say: With sugar", "bengali": "Chini", "script": "চিনি" } },
+        { "id": "l1_u5_p7", "english": "Without sugar", "bengali": "Chini chara", "script": "চিনি ছাড়া", "prompt": { "english": "Say: Without sugar", "bengali": "Chini", "script": "চিনি" } },
+        { "id": "l1_u5_p8", "english": "Check/Bill please", "bengali": "Bill-ta den", "script": "বিলটা দেন", "prompt": { "english": "Ask for the bill", "bengali": "Bill", "script": "বিল" } },
+        { "id": "l1_u5_p9", "english": "I don't eat meat", "bengali": "Aami mangsho khai na", "script": "আমি মাংস খাই না", "prompt": { "english": "Say: I don't eat meat", "bengali": "Khabar", "script": "খাবার" } },
+        { "id": "l1_u5_p10", "english": "Sit here", "bengali": "Eikhane boshen", "script": "এইখানে বসেন", "prompt": { "english": "Say: Sit here", "bengali": "Boshen", "script": "বসেন" } }
       ]
     },
     {
       "id": "l1_u6",
       "title": "Directions",
       "phrases": [
-        { "id": "l1_u6_p1", "english": "Where is the hotel?", "bengali": "Hotel kothay?", "script": "হোটেল কোথায়?" },
-        { "id": "l1_u6_p2", "english": "Go straight", "bengali": "Shoja jan", "script": "সোজা যান" },
-        { "id": "l1_u6_p3", "english": "Turn left", "bengali": "Baaye ghurun", "script": "বামে ঘুরুন" },
-        { "id": "l1_u6_p4", "english": "Turn right", "bengali": "Daane ghurun", "script": "ডানে ঘুরুন" },
-        { "id": "l1_u6_p5", "english": "Stop here", "bengali": "Eikhane thamen", "script": "এইখানে থামেন" },
-        { "id": "l1_u6_p6", "english": "Is it far?", "bengali": "Eta ki dure?", "script": "এটা কি দূরে?" },
-        { "id": "l1_u6_p7", "english": "It's nearby", "bengali": "Eta kachei", "script": "এটা কাছেই" },
-        { "id": "l1_u6_p8", "english": "Take me to...", "bengali": "Amake ... niye cholun", "script": "আমাকে ... নিয়ে চলুন" },
-        { "id": "l1_u6_p9", "english": "Wait a minute", "bengali": "Ektu dharan", "script": "একটু দাঁড়ান" },
-        { "id": "l1_u6_p10", "english": "Where am I?", "bengali": "Aami kothay?", "script": "আমি কোথায়?" }
+        { "id": "l1_u6_p1", "english": "Where is the hotel?", "bengali": "Hotel kothay?", "script": "হোটেল কোথায়?", "prompt": { "english": "Ask: Where is the hotel?", "bengali": "Thikana", "script": "ঠিকানা" } },
+        { "id": "l1_u6_p2", "english": "Go straight", "bengali": "Shoja jan", "script": "সোজা যান", "prompt": { "english": "Direction: Go straight", "bengali": "Dik", "script": "দিক" } },
+        { "id": "l1_u6_p3", "english": "Turn left", "bengali": "Baaye ghurun", "script": "বামে ঘুরুন", "prompt": { "english": "Direction: Turn left", "bengali": "Dik", "script": "দিক" } },
+        { "id": "l1_u6_p4", "english": "Turn right", "bengali": "Daane ghurun", "script": "ডানে ঘুরুন", "prompt": { "english": "Direction: Turn right", "bengali": "Dik", "script": "দিক" } },
+        { "id": "l1_u6_p5", "english": "Stop here", "bengali": "Eikhane thamen", "script": "এইখানে থামেন", "prompt": { "english": "Say: Stop here", "bengali": "Thaman", "script": "থামান" } },
+        { "id": "l1_u6_p6", "english": "Is it far?", "bengali": "Eta ki dure?", "script": "এটা কি দূরে?", "prompt": { "english": "Ask: Is it far?", "bengali": "Durotto", "script": "দূরত্ব" } },
+        { "id": "l1_u6_p7", "english": "It's nearby", "bengali": "Eta kachei", "script": "এটা কাছেই", "prompt": { "english": "Say: It's nearby", "bengali": "Durotto", "script": "দূরত্ব" } },
+        { "id": "l1_u6_p8", "english": "Take me to...", "bengali": "Amake ... niye cholun", "script": "আমাকে ... নিয়ে চলুন", "prompt": { "english": "Say: Take me to...", "bengali": "Gontobbo", "script": "গন্তব্য" } },
+        { "id": "l1_u6_p9", "english": "Wait a minute", "bengali": "Ektu dharan", "script": "একটু দাঁড়ান", "prompt": { "english": "Say: Wait a minute", "bengali": "Opekkha", "script": "অপেক্ষা" } },
+        { "id": "l1_u6_p10", "english": "Where am I?", "bengali": "Aami kothay?", "script": "আমি কোথায়?", "prompt": { "english": "Ask: Where am I?", "bengali": "Obosthan", "script": "অবস্থান" } }
       ]
     },
     {
       "id": "l1_u7",
       "title": "Family & Elders",
       "phrases": [
-        { "id": "l1_u7_p1", "english": "This is my brother", "bengali": "Ei-ta amar bhai", "script": "এইটা আমার ভাই" },
-        { "id": "l1_u7_p2", "english": "This is my sister", "bengali": "Ei-ta amar bon", "script": "এইটা আমার বোন" },
-        { "id": "l1_u7_p3", "english": "Father", "bengali": "Baba", "script": "বাবা" },
-        { "id": "l1_u7_p4", "english": "Mother", "bengali": "Ma", "script": "মা" },
-        { "id": "l1_u7_p5", "english": "Do you have children?", "bengali": "Apnar ki bacha ache?", "script": "আপনার কি বাচ্চা আছে?" },
-        { "id": "l1_u7_p6", "english": "My son", "bengali": "Amar chhele", "script": "আমার ছেলে" },
-        { "id": "l1_u7_p7", "english": "My daughter", "bengali": "Amar meye", "script": "আমার মেয়ে" },
-        { "id": "l1_u7_p8", "english": "Grandfather", "bengali": "Dadu", "script": "দাদু" },
-        { "id": "l1_u7_p9", "english": "Grandmother", "bengali": "Dida", "script": "দিদা" },
-        { "id": "l1_u7_p10", "english": "Friend", "bengali": "Bondhu", "script": "বন্ধু" }
+        { "id": "l1_u7_p1", "english": "This is my brother", "bengali": "Ei-ta amar bhai", "script": "এইটা আমার ভাই", "prompt": { "english": "Introduce your brother", "bengali": "Porichoy", "script": "পরিচয়" } },
+        { "id": "l1_u7_p2", "english": "This is my sister", "bengali": "Ei-ta amar bon", "script": "এইটা আমার বোন", "prompt": { "english": "Introduce your sister", "bengali": "Porichoy", "script": "পরিচয়" } },
+        { "id": "l1_u7_p3", "english": "Father", "bengali": "Baba", "script": "বাবা", "prompt": { "english": "Family: Father", "bengali": "Poribar", "script": "পরিবার" } },
+        { "id": "l1_u7_p4", "english": "Mother", "bengali": "Ma", "script": "মা", "prompt": { "english": "Family: Mother", "bengali": "Poribar", "script": "পরিবার" } },
+        { "id": "l1_u7_p5", "english": "Do you have children?", "bengali": "Apnar ki bacha ache?", "script": "আপনার কি বাচ্চা আছে?", "prompt": { "english": "Ask: Do you have children?", "bengali": "Poribar", "script": "পরিবার" } },
+        { "id": "l1_u7_p6", "english": "My son", "bengali": "Amar chhele", "script": "আমার ছেলে", "prompt": { "english": "Say: My son", "bengali": "Poribar", "script": "পরিবার" } },
+        { "id": "l1_u7_p7", "english": "My daughter", "bengali": "Amar meye", "script": "আমার মেয়ে", "prompt": { "english": "Say: My daughter", "bengali": "Poribar", "script": "পরিবার" } },
+        { "id": "l1_u7_p8", "english": "Grandfather", "bengali": "Dadu", "script": "দাদু", "prompt": { "english": "Family: Grandfather", "bengali": "Poribar", "script": "পরিবার" } },
+        { "id": "l1_u7_p9", "english": "Grandmother", "bengali": "Dida", "script": "দিদা", "prompt": { "english": "Family: Grandmother", "bengali": "Poribar", "script": "পরিবার" } },
+        { "id": "l1_u7_p10", "english": "Friend", "bengali": "Bondhu", "script": "বন্ধু", "prompt": { "english": "Word: Friend", "bengali": "Shomporko", "script": "সম্পর্ক" } }
       ]
     },
     {
       "id": "l1_u8",
       "title": "Colors & Descriptions",
       "phrases": [
-        { "id": "l1_u8_p1", "english": "Red", "bengali": "Lal", "script": "লাল" },
-        { "id": "l1_u8_p2", "english": "Blue", "bengali": "Nil", "script": "নীল" },
-        { "id": "l1_u8_p3", "english": "White", "bengali": "Shada", "script": "সাদা" },
-        { "id": "l1_u8_p4", "english": "Black", "bengali": "Kalo", "script": "কালো" },
-        { "id": "l1_u8_p5", "english": "Green", "bengali": "Shobuj", "script": "সবুজ" },
-        { "id": "l1_u8_p6", "english": "This is big", "bengali": "Eta boro", "script": "এটা বড়" },
-        { "id": "l1_u8_p7", "english": "This is small", "bengali": "Eta chhoto", "script": "এটা ছোট" },
-        { "id": "l1_u8_p8", "english": "Very beautiful", "bengali": "Khub shundor", "script": "খুব সুন্দর" },
-        { "id": "l1_u8_p9", "english": "Good", "bengali": "Bhalo", "script": "ভালো" },
-        { "id": "l1_u8_p10", "english": "Bad", "bengali": "Kharap", "script": "খারাপ" }
+        { "id": "l1_u8_p1", "english": "Red", "bengali": "Lal", "script": "লাল", "prompt": { "english": "Color: Red", "bengali": "Rong", "script": "রঙ" } },
+        { "id": "l1_u8_p2", "english": "Blue", "bengali": "Nil", "script": "নীল", "prompt": { "english": "Color: Blue", "bengali": "Rong", "script": "রঙ" } },
+        { "id": "l1_u8_p3", "english": "White", "bengali": "Shada", "script": "সাদা", "prompt": { "english": "Color: White", "bengali": "Rong", "script": "রঙ" } },
+        { "id": "l1_u8_p4", "english": "Black", "bengali": "Kalo", "script": "কালো", "prompt": { "english": "Color: Black", "bengali": "Rong", "script": "রঙ" } },
+        { "id": "l1_u8_p5", "english": "Green", "bengali": "Shobuj", "script": "সবুজ", "prompt": { "english": "Color: Green", "bengali": "Rong", "script": "রঙ" } },
+        { "id": "l1_u8_p6", "english": "This is big", "bengali": "Eta boro", "script": "এটা বড়", "prompt": { "english": "Describe: This is big", "bengali": "Borno", "script": "বর্ণনা" } },
+        { "id": "l1_u8_p7", "english": "This is small", "bengali": "Eta chhoto", "script": "এটা ছোট", "prompt": { "english": "Describe: This is small", "bengali": "Borno", "script": "বর্ণনা" } },
+        { "id": "l1_u8_p8", "english": "Very beautiful", "bengali": "Khub shundor", "script": "খুব সুন্দর", "prompt": { "english": "Describe: Very beautiful", "bengali": "Borno", "script": "বর্ণনা" } },
+        { "id": "l1_u8_p9", "english": "Good", "bengali": "Bhalo", "script": "ভালো", "prompt": { "english": "Word: Good", "bengali": "Borno", "script": "বর্ণনা" } },
+        { "id": "l1_u8_p10", "english": "Bad", "bengali": "Kharap", "script": "খারাপ", "prompt": { "english": "Word: Bad", "bengali": "Borno", "script": "বর্ণনা" } }
       ]
     },
     {
@@ -141,16 +141,16 @@
       "title": "Common Verbs 1",
       "description": "Basic daily actions in the first person.",
       "phrases": [
-        { "id": "l1_u9_p1", "english": "I go", "bengali": "Aami jai", "script": "আমি যাই" },
-        { "id": "l1_u9_p2", "english": "I come", "bengali": "Aami ashi", "script": "আমি আসি" },
-        { "id": "l1_u9_p3", "english": "I eat", "bengali": "Aami khai", "script": "আমি খাই" },
-        { "id": "l1_u9_p4", "english": "I drink", "bengali": "Aami pan kori", "script": "আমি পান করি", "literal": "I drink do" },
-        { "id": "l1_u9_p5", "english": "I sleep", "bengali": "Aami ghumai", "script": "আমি ঘুমাই" },
-        { "id": "l1_u9_p6", "english": "I see", "bengali": "Aami dekhi", "script": "আমি দেখি" },
-        { "id": "l1_u9_p7", "english": "I speak", "bengali": "Aami boli", "script": "আমি বলি" },
-        { "id": "l1_u9_p8", "english": "I listen", "bengali": "Aami shuni", "script": "আমি শুনি" },
-        { "id": "l1_u9_p9", "english": "I sit", "bengali": "Aami boshi", "script": "আমি বসি" },
-        { "id": "l1_u9_p10", "english": "I stand", "bengali": "Aami darai", "script": "আমি দাঁড়াই" }
+        { "id": "l1_u9_p1", "english": "I go", "bengali": "Aami jai", "script": "আমি যাই", "prompt": { "english": "Say: I go", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u9_p2", "english": "I come", "bengali": "Aami ashi", "script": "আমি আসি", "prompt": { "english": "Say: I come", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u9_p3", "english": "I eat", "bengali": "Aami khai", "script": "আমি খাই", "prompt": { "english": "Say: I eat", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u9_p4", "english": "I drink", "bengali": "Aami pan kori", "script": "আমি পান করি", "prompt": { "english": "Say: I drink", "bengali": "Kaj", "script": "কাজ" }, "literal": "I drink do" },
+        { "id": "l1_u9_p5", "english": "I sleep", "bengali": "Aami ghumai", "script": "আমি ঘুমাই", "prompt": { "english": "Say: I sleep", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u9_p6", "english": "I see", "bengali": "Aami dekhi", "script": "আমি দেখি", "prompt": { "english": "Say: I see", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u9_p7", "english": "I speak", "bengali": "Aami boli", "script": "আমি বলি", "prompt": { "english": "Say: I speak", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u9_p8", "english": "I listen", "bengali": "Aami shuni", "script": "আমি শুনি", "prompt": { "english": "Say: I listen", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u9_p9", "english": "I sit", "bengali": "Aami boshi", "script": "আমি বসি", "prompt": { "english": "Say: I sit", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u9_p10", "english": "I stand", "bengali": "Aami darai", "script": "আমি দাঁড়াই", "prompt": { "english": "Say: I stand", "bengali": "Kaj", "script": "কাজ" } }
       ]
     },
     {
@@ -158,64 +158,64 @@
       "title": "Common Verbs 2",
       "description": "Functional verbs for tasks and interactions.",
       "phrases": [
-        { "id": "l1_u10_p1", "english": "I do", "bengali": "Aami kori", "script": "আমি করি" },
-        { "id": "l1_u10_p2", "english": "I work", "bengali": "Aami kaj kori", "script": "আমি কাজ করি" },
-        { "id": "l1_u10_p3", "english": "I buy", "bengali": "Aami kini", "script": "আমি কিনি" },
-        { "id": "l1_u10_p4", "english": "I give", "bengali": "Aami dei", "script": "আমি দেই" },
-        { "id": "l1_u10_p5", "english": "I take", "bengali": "Aami nei", "script": "আমি নেই" },
-        { "id": "l1_u10_p6", "english": "I understand", "bengali": "Aami bujhi", "script": "আমি বুঝি" },
-        { "id": "l1_u10_p7", "english": "I don't understand", "bengali": "Aami bujhi na", "script": "আমি বুঝি না" },
-        { "id": "l1_u10_p8", "english": "I know", "bengali": "Aami jani", "script": "আমি জানি" },
-        { "id": "l1_u10_p9", "english": "I don't know", "bengali": "Aami jani na", "script": "আমি জানি না" },
-        { "id": "l1_u10_p10", "english": "I read", "bengali": "Aami pori", "script": "আমি পড়ি" }
+        { "id": "l1_u10_p1", "english": "I do", "bengali": "Aami kori", "script": "আমি করি", "prompt": { "english": "Say: I do", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u10_p2", "english": "I work", "bengali": "Aami kaj kori", "script": "আমি কাজ করি", "prompt": { "english": "Say: I work", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u10_p3", "english": "I buy", "bengali": "Aami kini", "script": "আমি কিনি", "prompt": { "english": "Say: I buy", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u10_p4", "english": "I give", "bengali": "Aami dei", "script": "আমি দেই", "prompt": { "english": "Say: I give", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u10_p5", "english": "I take", "bengali": "Aami nei", "script": "আমি নেই", "prompt": { "english": "Say: I take", "bengali": "Kaj", "script": "কাজ" } },
+        { "id": "l1_u10_p6", "english": "I understand", "bengali": "Aami bujhi", "script": "আমি বুঝি", "prompt": { "english": "Say: I understand", "bengali": "Bujhechi", "script": "বুঝেছি" } },
+        { "id": "l1_u10_p7", "english": "I don't understand", "bengali": "Aami bujhi na", "script": "আমি বুঝি না", "prompt": { "english": "Say: I don't understand", "bengali": "Bujhini", "script": "বুঝিনি" } },
+        { "id": "l1_u10_p8", "english": "I know", "bengali": "Aami jani", "script": "আমি জানি", "prompt": { "english": "Say: I know", "bengali": "Jani", "script": "জানি" } },
+        { "id": "l1_u10_p9", "english": "I don't know", "bengali": "Aami jani na", "script": "আমি জানি না", "prompt": { "english": "Say: I don't know", "bengali": "Jani na", "script": "জানি না" } },
+        { "id": "l1_u10_p10", "english": "I read", "bengali": "Aami pori", "script": "আমি পড়ি", "prompt": { "english": "Say: I read", "bengali": "Kaj", "script": "কাজ" } }
       ]
     },
     {
       "id": "l1_u11",
       "title": "Time of Day",
       "phrases": [
-        { "id": "l1_u11_p1", "english": "Morning", "bengali": "Sokal", "script": "সকাল" },
-        { "id": "l1_u11_p2", "english": "Noon", "bengali": "Dupur", "script": "দুপুর" },
-        { "id": "l1_u11_p3", "english": "Afternoon", "bengali": "Bikel", "script": "বিকেল" },
-        { "id": "l1_u11_p4", "english": "Evening", "bengali": "Shondha", "script": "সন্ধ্যা" },
-        { "id": "l1_u11_p5", "english": "Night", "bengali": "Raat", "script": "রাত" },
-        { "id": "l1_u11_p6", "english": "Now", "bengali": "Ekhon", "script": "এখন" },
-        { "id": "l1_u11_p7", "english": "Later", "bengali": "Pore", "script": "পরে" },
-        { "id": "l1_u11_p8", "english": "Today", "bengali": "Aaj", "script": "আজ" },
-        { "id": "l1_u11_p9", "english": "Yesterday", "bengali": "Goto-kal", "script": "গতকাল" },
-        { "id": "l1_u11_p10", "english": "Tomorrow", "bengali": "Agami-kal", "script": "আগামীকাল" }
+        { "id": "l1_u11_p1", "english": "Morning", "bengali": "Sokal", "script": "সকাল", "prompt": { "english": "Time: Morning", "bengali": "Shomoy", "script": "সময়" } },
+        { "id": "l1_u11_p2", "english": "Noon", "bengali": "Dupur", "script": "দুপুর", "prompt": { "english": "Time: Noon", "bengali": "Shomoy", "script": "সময়" } },
+        { "id": "l1_u11_p3", "english": "Afternoon", "bengali": "Bikel", "script": "বিকেল", "prompt": { "english": "Time: Afternoon", "bengali": "Shomoy", "script": "সময়" } },
+        { "id": "l1_u11_p4", "english": "Evening", "bengali": "Shondha", "script": "সন্ধ্যা", "prompt": { "english": "Time: Evening", "bengali": "Shomoy", "script": "সময়" } },
+        { "id": "l1_u11_p5", "english": "Night", "bengali": "Raat", "script": "রাত", "prompt": { "english": "Time: Night", "bengali": "Shomoy", "script": "সময়" } },
+        { "id": "l1_u11_p6", "english": "Now", "bengali": "Ekhon", "script": "এখন", "prompt": { "english": "Time: Now", "bengali": "Kokh-on", "script": "কখন" } },
+        { "id": "l1_u11_p7", "english": "Later", "bengali": "Pore", "script": "পরে", "prompt": { "english": "Time: Later", "bengali": "Kokh-on", "script": "কখন" } },
+        { "id": "l1_u11_p8", "english": "Today", "bengali": "Aaj", "script": "আজ", "prompt": { "english": "Time: Today", "bengali": "Kobe", "script": "কবে" } },
+        { "id": "l1_u11_p9", "english": "Yesterday", "bengali": "Goto-kal", "script": "গতকাল", "prompt": { "english": "Time: Yesterday", "bengali": "Kobe", "script": "কবে" } },
+        { "id": "l1_u11_p10", "english": "Tomorrow", "bengali": "Agami-kal", "script": "আগামীকাল", "prompt": { "english": "Time: Tomorrow", "bengali": "Kobe", "script": "কবে" } }
       ]
     },
     {
       "id": "l1_u12",
       "title": "Days of the Week",
       "phrases": [
-        { "id": "l1_u12_p1", "english": "Saturday", "bengali": "Shonibar", "script": "শনিবার" },
-        { "id": "l1_u12_p2", "english": "Sunday", "bengali": "Robibar", "script": "রবিবার" },
-        { "id": "l1_u12_p3", "english": "Monday", "bengali": "Shombar", "script": "সোমবার" },
-        { "id": "l1_u12_p4", "english": "Tuesday", "bengali": "Mongolbar", "script": "মঙ্গলবার" },
-        { "id": "l1_u12_p5", "english": "Wednesday", "bengali": "Budhbar", "script": "বুধবার" },
-        { "id": "l1_u12_p6", "english": "Thursday", "bengali": "Brihoshpotibar", "script": "বৃহস্পতিবার" },
-        { "id": "l1_u12_p7", "english": "Friday", "bengali": "Shukrobar", "script": "শুক্রবার" },
-        { "id": "l1_u12_p8", "english": "What day is today?", "bengali": "Aaj ki bar?", "script": "আজ কি বার?" },
-        { "id": "l1_u12_p9", "english": "Holiday", "bengali": "Chutir din", "script": "ছুটির দিন", "literal": "Day of rest" },
-        { "id": "l1_u12_p10", "english": "Weekend", "bengali": "Shoptahanto", "script": "সপ্তাহান্ত" }
+        { "id": "l1_u12_p1", "english": "Saturday", "bengali": "Shonibar", "script": "শনিবার", "prompt": { "english": "Day: Saturday", "bengali": "Ki bar?", "script": "কি বার?" } },
+        { "id": "l1_u12_p2", "english": "Sunday", "bengali": "Robibar", "script": "রবিবার", "prompt": { "english": "Day: Sunday", "bengali": "Ki bar?", "script": "কি বার?" } },
+        { "id": "l1_u12_p3", "english": "Monday", "bengali": "Shombar", "script": "সোমবার", "prompt": { "english": "Day: Monday", "bengali": "Ki bar?", "script": "কি বার?" } },
+        { "id": "l1_u12_p4", "english": "Tuesday", "bengali": "Mongolbar", "script": "মঙ্গলবার", "prompt": { "english": "Day: Tuesday", "bengali": "Ki bar?", "script": "কি বার?" } },
+        { "id": "l1_u12_p5", "english": "Wednesday", "bengali": "Budhbar", "script": "বুধবার", "prompt": { "english": "Day: Wednesday", "bengali": "Ki bar?", "script": "কি বার?" } },
+        { "id": "l1_u12_p6", "english": "Thursday", "bengali": "Brihoshpotibar", "script": "বৃহস্পতিবার", "prompt": { "english": "Day: Thursday", "bengali": "Ki bar?", "script": "কি বার?" } },
+        { "id": "l1_u12_p7", "english": "Friday", "bengali": "Shukrobar", "script": "শুক্রবার", "prompt": { "english": "Day: Friday", "bengali": "Ki bar?", "script": "কি বার?" } },
+        { "id": "l1_u12_p8", "english": "What day is today?", "bengali": "Aaj ki bar?", "script": "আজ কি বার?", "prompt": { "english": "Ask: What day is today?", "bengali": "Proshno", "script": "প্রশ্ন" } },
+        { "id": "l1_u12_p9", "english": "Holiday", "bengali": "Chutir din", "script": "ছুটির দিন", "prompt": { "english": "Word: Holiday", "bengali": "Din", "script": "দিন" }, "literal": "Day of rest" },
+        { "id": "l1_u12_p10", "english": "Weekend", "bengali": "Shoptahanto", "script": "সপ্তাহান্ত", "prompt": { "english": "Word: Weekend", "bengali": "Shomoy", "script": "সময়" } }
       ]
     },
     {
       "id": "l1_u13",
       "title": "Basic Questions",
       "phrases": [
-        { "id": "l1_u13_p1", "english": "What?", "bengali": "Ki?", "script": "কি?" },
-        { "id": "l1_u13_p2", "english": "Who?", "bengali": "Ke?", "script": "কে?" },
-        { "id": "l1_u13_p3", "english": "Where?", "bengali": "Kothay?", "script": "কোথায়?" },
-        { "id": "l1_u13_p4", "english": "When?", "bengali": "Kokh-on?", "script": "কখন?" },
-        { "id": "l1_u13_p5", "english": "Why?", "bengali": "Keno?", "script": "কেন?" },
-        { "id": "l1_u13_p6", "english": "How?", "bengali": "Kivabe?", "script": "কিভাবে?" },
-        { "id": "l1_u13_p7", "english": "How much?", "bengali": "Koto?", "script": "কত?" },
-        { "id": "l1_u13_p8", "english": "Which one?", "bengali": "Konta?", "script": "কোনটা?" },
-        { "id": "l1_u13_p9", "english": "Is it true?", "bengali": "Sotti?", "script": "সত্যি?" },
-        { "id": "l1_u13_p10", "english": "What happened?", "bengali": "Ki hoyeche?", "script": "কি হয়েছে?" }
+        { "id": "l1_u13_p1", "english": "What?", "bengali": "Ki?", "script": "কি?", "prompt": { "english": "Ask: What?", "bengali": "Proshno", "script": "প্রশ্ন" } },
+        { "id": "l1_u13_p2", "english": "Who?", "bengali": "Ke?", "script": "কে?", "prompt": { "english": "Ask: Who?", "bengali": "Proshno", "script": "প্রশ্ন" } },
+        { "id": "l1_u13_p3", "english": "Where?", "bengali": "Kothay?", "script": "কোথায়?", "prompt": { "english": "Ask: Where?", "bengali": "Proshno", "script": "প্রশ্ন" } },
+        { "id": "l1_u13_p4", "english": "When?", "bengali": "Kokh-on?", "script": "কখন?", "prompt": { "english": "Ask: When?", "bengali": "Proshno", "script": "প্রশ্ন" } },
+        { "id": "l1_u13_p5", "english": "Why?", "bengali": "Keno?", "script": "কেন?", "prompt": { "english": "Ask: Why?", "bengali": "Proshno", "script": "প্রশ্ন" } },
+        { "id": "l1_u13_p6", "english": "How?", "bengali": "Kivabe?", "script": "কিভাবে?", "prompt": { "english": "Ask: How?", "bengali": "Proshno", "script": "প্রশ্ন" } },
+        { "id": "l1_u13_p7", "english": "How much?", "bengali": "Koto?", "script": "কত?", "prompt": { "english": "Ask: How much?", "bengali": "Proshno", "script": "প্রশ্ন" } },
+        { "id": "l1_u13_p8", "english": "Which one?", "bengali": "Konta?", "script": "কোনটা?", "prompt": { "english": "Ask: Which one?", "bengali": "Proshno", "script": "প্রশ্ন" } },
+        { "id": "l1_u13_p9", "english": "Is it true?", "bengali": "Sotti?", "script": "সত্যি?", "prompt": { "english": "Ask: Is it true?", "bengali": "Proshno", "script": "প্রশ্ন" } },
+        { "id": "l1_u13_p10", "english": "What happened?", "bengali": "Ki hoyeche?", "script": "কি হয়েছে?", "prompt": { "english": "Ask: What happened?", "bengali": "Proshno", "script": "প্রশ্ন" } }
       ]
     },
     {
@@ -223,16 +223,16 @@
       "title": "Simple Sentence Construction",
       "description": "Practicing the Subject-Object-Verb pattern.",
       "phrases": [
-        { "id": "l1_u14_p1", "english": "I eat rice", "bengali": "Aami bhaat khai", "script": "আমি ভাত খাই", "literal": "I rice eat" },
-        { "id": "l1_u14_p2", "english": "I drink water", "bengali": "Aami paani khai", "script": "আমি পানি খাই", "culturalNote": "In Bengali, you often 'eat' (khai) water/cigarettes/tea instead of 'drinking' them." },
-        { "id": "l1_u14_p3", "english": "He goes home", "bengali": "Shey bari jay", "script": "সে বাড়ি যায়" },
-        { "id": "l1_u14_p4", "english": "I want tea", "bengali": "Aami cha chai", "script": "আমি চা চাই" },
-        { "id": "l1_u14_p5", "english": "The weather is good", "bengali": "Abhowa bhalo", "script": "আবহাওয়া ভালো" },
-        { "id": "l1_u14_p6", "english": "I am a doctor", "bengali": "Aami ekjon daktar", "script": "আমি একজন ডাক্তার" },
-        { "id": "l1_u14_p7", "english": "This is a book", "bengali": "Eta ekta boi", "script": "এটা একটা বই" },
-        { "id": "l1_u14_p8", "english": "I like this", "bengali": "Amar eta pochondo", "script": "আমার এটা পছন্দ", "literal": "My this liking" },
-        { "id": "l1_u14_p9", "english": "We are friends", "bengali": "Amra bondhu", "script": "আমরা বন্ধু" },
-        { "id": "l1_u14_p10", "english": "I am learning Bengali", "bengali": "Aami Bangla shikchi", "script": "আমি বাংলা শিখছি" }
+        { "id": "l1_u14_p1", "english": "I eat rice", "bengali": "Aami bhaat khai", "script": "আমি ভাত খাই", "prompt": { "english": "Say: I eat rice", "bengali": "Apni ki khan?", "script": "আপনি কি খান?" }, "literal": "I rice eat" },
+        { "id": "l1_u14_p2", "english": "I drink water", "bengali": "Aami paani khai", "script": "আমি পানি খাই", "prompt": { "english": "Say: I drink water", "bengali": "Apni ki khan?", "script": "আপনি কি খান?" }, "culturalNote": "In Bengali, you often 'eat' (khai) water/cigarettes/tea instead of 'drinking' them." },
+        { "id": "l1_u14_p3", "english": "He goes home", "bengali": "Shey bari jay", "script": "সে বাড়ি যায়", "prompt": { "english": "Say: He goes home", "bengali": "Shey kothay jay?", "script": "সে কোথায় যায়?" } },
+        { "id": "l1_u14_p4", "english": "I want tea", "bengali": "Aami cha chai", "script": "আমি চা চাই", "prompt": { "english": "Say: I want tea", "bengali": "Apni ki chan?", "script": "আপনি কি চান?" } },
+        { "id": "l1_u14_p5", "english": "The weather is good", "bengali": "Abhowa bhalo", "script": "আবহাওয়া ভালো", "prompt": { "english": "Say: The weather is good", "bengali": "Abhowa kemon?", "script": "আবহাওয়া কেমন?" } },
+        { "id": "l1_u14_p6", "english": "I am a doctor", "bengali": "Aami ekjon daktar", "script": "আমি একজন ডাক্তার", "prompt": { "english": "Say: I am a doctor", "bengali": "Apni ki koren?", "script": "আপনি কি করেন?" } },
+        { "id": "l1_u14_p7", "english": "This is a book", "bengali": "Eta ekta boi", "script": "এটা একটা বই", "prompt": { "english": "Say: This is a book", "bengali": "Eta ki?", "script": "এটা কি?" } },
+        { "id": "l1_u14_p8", "english": "I like this", "bengali": "Amar eta pochondo", "script": "আমার এটা পছন্দ", "prompt": { "english": "Say: I like this", "bengali": "Pochondo", "script": "পছন্দ" }, "literal": "My this liking" },
+        { "id": "l1_u14_p9", "english": "We are friends", "bengali": "Amra bondhu", "script": "আমরা বন্ধু", "prompt": { "english": "Say: We are friends", "bengali": "Shomporko", "script": "সম্পর্ক" } },
+        { "id": "l1_u14_p10", "english": "I am learning Bengali", "bengali": "Aami Bangla shikchi", "script": "আমি বাংলা শিখছি", "prompt": { "english": "Say: I am learning Bengali", "bengali": "Apni ki korchen?", "script": "আপনি কি করছেন?" } }
       ]
     },
     {
@@ -240,80 +240,80 @@
       "title": "Pronouns (I/You/He/She)",
       "description": "Learning the different levels of respect in Bengali pronouns.",
       "phrases": [
-        { "id": "l1_u15_p1", "english": "I", "bengali": "Aami", "script": "আমি" },
-        { "id": "l1_u15_p2", "english": "You (Formal)", "bengali": "Apni", "script": "আপনি", "isFormal": true },
-        { "id": "l1_u15_p3", "english": "You (Informal)", "bengali": "Tumi", "script": "তুমি", "isFormal": false },
-        { "id": "l1_u15_p4", "english": "He/She (Neutral)", "bengali": "Shey", "script": "সে" },
-        { "id": "l1_u15_p5", "english": "He/She (Formal/Respectful)", "bengali": "Uni", "script": "উনি", "culturalNote": "Use for elders or people in high positions." },
-        { "id": "l1_u15_p6", "english": "We", "bengali": "Amra", "script": "আমরা" },
-        { "id": "l1_u15_p7", "english": "You all (Formal)", "bengali": "Apnara", "script": "আপনারা" },
-        { "id": "l1_u15_p8", "english": "You all (Informal)", "bengali": "Tomra", "script": "তোমরা" },
-        { "id": "l1_u15_p9", "english": "They", "bengali": "Tara", "script": "তারা" },
-        { "id": "l1_u15_p10", "english": "Everyone", "bengali": "Shobai", "script": "সবাই" }
+        { "id": "l1_u15_p1", "english": "I", "bengali": "Aami", "script": "আমি", "prompt": { "english": "Pronoun: I", "bengali": "Shorbonam", "script": "সর্বনাম" } },
+        { "id": "l1_u15_p2", "english": "You (Formal)", "bengali": "Apni", "script": "আপনি", "prompt": { "english": "Pronoun: You (Formal)", "bengali": "Shorbonam", "script": "সর্বনাম" }, "isFormal": true },
+        { "id": "l1_u15_p3", "english": "You (Informal)", "bengali": "Tumi", "script": "তুমি", "prompt": { "english": "Pronoun: You (Informal)", "bengali": "Shorbonam", "script": "সর্বনাম" }, "isFormal": false },
+        { "id": "l1_u15_p4", "english": "He/She (Neutral)", "bengali": "Shey", "script": "সে", "prompt": { "english": "Pronoun: He/She", "bengali": "Shorbonam", "script": "সর্বনাম" } },
+        { "id": "l1_u15_p5", "english": "He/She (Formal/Respectful)", "bengali": "Uni", "script": "উনি", "prompt": { "english": "Pronoun: He/She (Formal)", "bengali": "Shorbonam", "script": "সর্বনাম" }, "culturalNote": "Use for elders or people in high positions." },
+        { "id": "l1_u15_p6", "english": "We", "bengali": "Amra", "script": "আমরা", "prompt": { "english": "Pronoun: We", "bengali": "Shorbonam", "script": "সর্বনাম" } },
+        { "id": "l1_u15_p7", "english": "You all (Formal)", "bengali": "Apnara", "script": "আপনারা", "prompt": { "english": "Pronoun: You all (Formal)", "bengali": "Shorbonam", "script": "সর্বনাম" } },
+        { "id": "l1_u15_p8", "english": "You all (Informal)", "bengali": "Tomra", "script": "তোমরা", "prompt": { "english": "Pronoun: You all (Informal)", "bengali": "Shorbonam", "script": "সর্বনাম" } },
+        { "id": "l1_u15_p9", "english": "They", "bengali": "Tara", "script": "তারা", "prompt": { "english": "Pronoun: They", "bengali": "Shorbonam", "script": "সর্বনাম" } },
+        { "id": "l1_u15_p10", "english": "Everyone", "bengali": "Shobai", "script": "সবাই", "prompt": { "english": "Pronoun: Everyone", "bengali": "Shorbonam", "script": "সর্বনাম" } }
       ]
     },
     {
       "id": "l1_u16",
       "title": "Possessives (My/Your/His)",
       "phrases": [
-        { "id": "l1_u16_p1", "english": "My / Mine", "bengali": "Amar", "script": "আমার" },
-        { "id": "l1_u16_p2", "english": "Your (Formal)", "bengali": "Apnar", "script": "আপনার", "isFormal": true },
-        { "id": "l1_u16_p3", "english": "Your (Informal)", "bengali": "Tomar", "script": "তোমার", "isFormal": false },
-        { "id": "l1_u16_p4", "english": "His/Her", "bengali": "Tar", "script": "তার" },
-        { "id": "l1_u16_p5", "english": "Our", "bengali": "Amader", "script": "আমাদের" },
-        { "id": "l1_u16_p6", "english": "Their", "bengali": "Tader", "script": "তাদের" },
-        { "id": "l1_u16_p7", "english": "My friend", "bengali": "Amar bondhu", "script": "আমার বন্ধু" },
-        { "id": "l1_u16_p8", "english": "Your house", "bengali": "Apnar bari", "script": "আপনার বাড়ি" },
-        { "id": "l1_u16_p9", "english": "His name", "bengali": "Tar naam", "script": "তার নাম" },
-        { "id": "l1_u16_p10", "english": "Whose?", "bengali": "Kar?", "script": "কার?" }
+        { "id": "l1_u16_p1", "english": "My / Mine", "bengali": "Amar", "script": "আমার", "prompt": { "english": "Possessive: My", "bengali": "Shorbonam", "script": "সর্বনাম" } },
+        { "id": "l1_u16_p2", "english": "Your (Formal)", "bengali": "Apnar", "script": "আপনার", "prompt": { "english": "Possessive: Your (Formal)", "bengali": "Shorbonam", "script": "সর্বনাম" }, "isFormal": true },
+        { "id": "l1_u16_p3", "english": "Your (Informal)", "bengali": "Tomar", "script": "তোমার", "prompt": { "english": "Possessive: Your (Informal)", "bengali": "Shorbonam", "script": "সর্বনাম" }, "isFormal": false },
+        { "id": "l1_u16_p4", "english": "His/Her", "bengali": "Tar", "script": "তার", "prompt": { "english": "Possessive: His/Her", "bengali": "Shorbonam", "script": "সর্বনাম" } },
+        { "id": "l1_u16_p5", "english": "Our", "bengali": "Amader", "script": "আমাদের", "prompt": { "english": "Possessive: Our", "bengali": "Shorbonam", "script": "সর্বনাম" } },
+        { "id": "l1_u16_p6", "english": "Their", "bengali": "Tader", "script": "তাদের", "prompt": { "english": "Possessive: Their", "bengali": "Shorbonam", "script": "সর্বনাম" } },
+        { "id": "l1_u16_p7", "english": "My friend", "bengali": "Amar bondhu", "script": "আমার বন্ধু", "prompt": { "english": "Say: My friend", "bengali": "Bondhu", "script": "বন্ধু" } },
+        { "id": "l1_u16_p8", "english": "Your house", "bengali": "Apnar bari", "script": "আপনার বাড়ি", "prompt": { "english": "Say: Your house", "bengali": "Bari", "script": "বাড়ি" } },
+        { "id": "l1_u16_p9", "english": "His name", "bengali": "Tar naam", "script": "তার নাম", "prompt": { "english": "Say: His name", "bengali": "Naam", "script": "নাম" } },
+        { "id": "l1_u16_p10", "english": "Whose?", "bengali": "Kar?", "script": "কার?", "prompt": { "english": "Ask: Whose?", "bengali": "Proshno", "script": "প্রশ্ন" } }
       ]
     },
     {
       "id": "l1_u17",
       "title": "Negation (Not/No)",
       "phrases": [
-        { "id": "l1_u17_p1", "english": "No", "bengali": "Na", "script": "না" },
-        { "id": "l1_u17_p2", "english": "I don't have", "bengali": "Amar nei", "script": "আমার নেই" },
-        { "id": "l1_u17_p3", "english": "Not good", "bengali": "Bhalo na", "script": "ভালো না" },
-        { "id": "l1_u17_p4", "english": "I don't want", "bengali": "Aami chai na", "script": "আমি চাই না" },
-        { "id": "l1_u17_p5", "english": "I don't know", "bengali": "Aami jani na", "script": "আমি জানি না" },
-        { "id": "l1_u17_p6", "english": "It's not here", "bengali": "Eikhane na", "script": "এইখানে না" },
-        { "id": "l1_u17_p7", "english": "Nothing", "bengali": "Kichu na", "script": "কিছু না" },
-        { "id": "l1_u17_p8", "english": "No one", "bengali": "Keu na", "script": "কেউ না" },
-        { "id": "l1_u17_p9", "english": "Never", "bengali": "Kokhono na", "script": "কখনো না" },
-        { "id": "l1_u17_p10", "english": "Not yet", "bengali": "Ekhono na", "script": "এখনো না" }
+        { "id": "l1_u17_p1", "english": "No", "bengali": "Na", "script": "না", "prompt": { "english": "Say: No", "bengali": "Na", "script": "না" } },
+        { "id": "l1_u17_p2", "english": "I don't have", "bengali": "Amar nei", "script": "আমার নেই", "prompt": { "english": "Say: I don't have", "bengali": "Ache ki?", "script": "আছে কি?" } },
+        { "id": "l1_u17_p3", "english": "Not good", "bengali": "Bhalo na", "script": "ভালো না", "prompt": { "english": "Say: Not good", "bengali": "Kemon?", "script": "কেমন?" } },
+        { "id": "l1_u17_p4", "english": "I don't want", "bengali": "Aami chai na", "script": "আমি চাই না", "prompt": { "english": "Say: I don't want", "bengali": "Chan?", "script": "চান?" } },
+        { "id": "l1_u17_p5", "english": "I don't know", "bengali": "Aami jani na", "script": "আমি জানি না", "prompt": { "english": "Say: I don't know", "bengali": "Janen?", "script": "জানেন?" } },
+        { "id": "l1_u17_p6", "english": "It's not here", "bengali": "Eikhane na", "script": "এইখানে না", "prompt": { "english": "Say: It's not here", "bengali": "Kothay?", "script": "কোথায়?" } },
+        { "id": "l1_u17_p7", "english": "Nothing", "bengali": "Kichu na", "script": "কিছু না", "prompt": { "english": "Say: Nothing", "bengali": "Ki?", "script": "কি?" } },
+        { "id": "l1_u17_p8", "english": "No one", "bengali": "Keu na", "script": "কেউ না", "prompt": { "english": "Say: No one", "bengali": "Ke?", "script": "কে?" } },
+        { "id": "l1_u17_p9", "english": "Never", "bengali": "Kokhono na", "script": "কখনো না", "prompt": { "english": "Say: Never", "bengali": "Kokhono?", "script": "কখনো?" } },
+        { "id": "l1_u17_p10", "english": "Not yet", "bengali": "Ekhono na", "script": "এখনো না", "prompt": { "english": "Say: Not yet", "bengali": "Hoyechhe?", "script": "হয়েছে?" } }
       ]
     },
     {
       "id": "l1_u18",
       "title": "Feelings (Happy/Sad/Tired)",
       "phrases": [
-        { "id": "l1_u18_p1", "english": "I am happy", "bengali": "Aami khushi", "script": "আমি খুশি" },
-        { "id": "l1_u18_p2", "english": "I am sad", "bengali": "Amar mon kharap", "script": "আমার মন খারাপ", "literal": "My mind is bad" },
-        { "id": "l1_u18_p3", "english": "I am tired", "bengali": "Aami klanto", "script": "আমি ক্লান্ত" },
-        { "id": "l1_u18_p4", "english": "I am sick", "bengali": "Aami oshustho", "script": "আমি অসুস্থ" },
-        { "id": "l1_u18_p5", "english": "I am angry", "bengali": "Aami ragi", "script": "আমি রাগী" },
-        { "id": "l1_u18_p6", "english": "I am scared", "bengali": "Amar bhoy lagche", "script": "আমার ভয় লাগছে" },
-        { "id": "l1_u18_p7", "english": "I am sleepy", "bengali": "Amar ghum pach-che", "script": "আমার ঘুম পাচ্ছে" },
-        { "id": "l1_u18_p8", "english": "I am surprised", "bengali": "Aami obak", "script": "আমি অবাক" },
-        { "id": "l1_u18_p9", "english": "Are you okay?", "bengali": "Apni thik achen?", "script": "আপনি ঠিক আছেন?" },
-        { "id": "l1_u18_p10", "english": "Everything is fine", "bengali": "Shob thik ache", "script": "সব ঠিক আছে" }
+        { "id": "l1_u18_p1", "english": "I am happy", "bengali": "Aami khushi", "script": "আমি খুশি", "prompt": { "english": "Say: I am happy", "bengali": "Mon", "script": "মন" } },
+        { "id": "l1_u18_p2", "english": "I am sad", "bengali": "Amar mon kharap", "script": "আমার মন খারাপ", "prompt": { "english": "Say: I am sad", "bengali": "Mon", "script": "মন" }, "literal": "My mind is bad" },
+        { "id": "l1_u18_p3", "english": "I am tired", "bengali": "Aami klanto", "script": "আমি ক্লান্ত", "prompt": { "english": "Say: I am tired", "bengali": "Shorir", "script": "শরীর" } },
+        { "id": "l1_u18_p4", "english": "I am sick", "bengali": "Aami oshustho", "script": "আমি অসুস্থ", "prompt": { "english": "Say: I am sick", "bengali": "Shorir", "script": "শরীর" } },
+        { "id": "l1_u18_p5", "english": "I am angry", "bengali": "Aami ragi", "script": "আমি রাগী", "prompt": { "english": "Say: I am angry", "bengali": "Mon", "script": "মন" } },
+        { "id": "l1_u18_p6", "english": "I am scared", "bengali": "Amar bhoy lagche", "script": "আমার ভয় লাগছে", "prompt": { "english": "Say: I am scared", "bengali": "Bhoy", "script": "ভয়" } },
+        { "id": "l1_u18_p7", "english": "I am sleepy", "bengali": "Amar ghum pach-che", "script": "আমার ঘুম পাচ্ছে", "prompt": { "english": "Say: I am sleepy", "bengali": "Ghum", "script": "ঘুম" } },
+        { "id": "l1_u18_p8", "english": "I am surprised", "bengali": "Aami obak", "script": "আমি অবাক", "prompt": { "english": "Say: I am surprised", "bengali": "Obak", "script": "অবাক" } },
+        { "id": "l1_u18_p9", "english": "Are you okay?", "bengali": "Apni thik achen?", "script": "আপনি ঠিক আছেন?", "prompt": { "english": "Ask: Are you okay?", "bengali": "Obostha", "script": "অবস্থা" } },
+        { "id": "l1_u18_p10", "english": "Everything is fine", "bengali": "Shob thik ache", "script": "সব ঠিক আছে", "prompt": { "english": "Say: Everything is fine", "bengali": "Obostha", "script": "অবস্থা" } }
       ]
     },
     {
       "id": "l1_u19",
       "title": "Emergencies",
       "phrases": [
-        { "id": "l1_u19_p1", "english": "Help!", "bengali": "Bachao!", "script": "বাঁচাও!" },
-        { "id": "l1_u19_p2", "english": "Call a doctor", "bengali": "Daktar daken", "script": "ডাক্তার ডাকেন" },
-        { "id": "l1_u19_p3", "english": "Call the police", "bengali": "Police daken", "script": "পুলিশ ডাকেন" },
-        { "id": "l1_u19_p4", "english": "I am lost", "bengali": "Aami hariye giyechi", "script": "আমি হারিয়ে গিয়েছি" },
-        { "id": "l1_u19_p5", "english": "I lost my bag", "bengali": "Amar bag hariyeche", "script": "আমার ব্যাগ হারিয়েছে" },
-        { "id": "l1_u19_p6", "english": "My stomach hurts", "bengali": "Amar pete betha", "script": "আমার পেটে ব্যথা" },
-        { "id": "l1_u19_p7", "english": "Where is the hospital?", "bengali": "Hospital kothay?", "script": "হাসপাতাল কোথায়?" },
-        { "id": "l1_u19_p8", "english": "I need medicine", "bengali": "Amar au-shud dorkar", "script": "আমার ওষুধ দরকার" },
-        { "id": "l1_u19_p9", "english": "It's an emergency", "bengali": "Eta joruri", "script": "এটা জরুরী" },
-        { "id": "l1_u19_p10", "english": "Be careful", "bengali": "Sabdhan", "script": "সাবধান" }
+        { "id": "l1_u19_p1", "english": "Help!", "bengali": "Bachao!", "script": "বাঁচাও!", "prompt": { "english": "Scream: Help!", "bengali": "Sahajjo", "script": "সাহায্য" } },
+        { "id": "l1_u19_p2", "english": "Call a doctor", "bengali": "Daktar daken", "script": "ডাক্তার ডাকেন", "prompt": { "english": "Say: Call a doctor", "bengali": "Daktar", "script": "ডাক্তার" } },
+        { "id": "l1_u19_p3", "english": "Call the police", "bengali": "Police daken", "script": "পুলিশ ডাকেন", "prompt": { "english": "Say: Call the police", "bengali": "Police", "script": "পুলিশ" } },
+        { "id": "l1_u19_p4", "english": "I am lost", "bengali": "Aami hariye giyechi", "script": "আমি হারিয়ে গিয়েছি", "prompt": { "english": "Say: I am lost", "bengali": "Hariye gechi", "script": "হারিয়ে গেছি" } },
+        { "id": "l1_u19_p5", "english": "I lost my bag", "bengali": "Amar bag hariyeche", "script": "আমার ব্যাগ হারিয়েছে", "prompt": { "english": "Say: I lost my bag", "bengali": "Bag", "script": "ব্যাগ" } },
+        { "id": "l1_u19_p6", "english": "My stomach hurts", "bengali": "Amar pete betha", "script": "আমার পেটে ব্যথা", "prompt": { "english": "Say: My stomach hurts", "bengali": "Betha", "script": "ব্যথা" } },
+        { "id": "l1_u19_p7", "english": "Where is the hospital?", "bengali": "Hospital kothay?", "script": "হাসপাতাল কোথায়?", "prompt": { "english": "Ask: Where is the hospital?", "bengali": "Thikana", "script": "ঠিকানা" } },
+        { "id": "l1_u19_p8", "english": "I need medicine", "bengali": "Amar au-shud dorkar", "script": "আমার ওষুধ দরকার", "prompt": { "english": "Say: I need medicine", "bengali": "Oshudh", "script": "ঔষধ" } },
+        { "id": "l1_u19_p9", "english": "It's an emergency", "bengali": "Eta joruri", "script": "এটা জরুরী", "prompt": { "english": "Say: It's an emergency", "bengali": "Joruri", "script": "জরুরী" } },
+        { "id": "l1_u19_p10", "english": "Be careful", "bengali": "Sabdhan", "script": "সাবধান", "prompt": { "english": "Warn: Be careful", "bengali": "Sabdhan", "script": "সাবধান" } }
       ]
     },
     {
@@ -321,16 +321,16 @@
       "title": "Level 1 Review",
       "description": "A mix of conversational essentials to wrap up the level.",
       "phrases": [
-        { "id": "l1_u20_p1", "english": "I speak a little Bengali", "bengali": "Aami olpo Bangla boli", "script": "আমি অল্প বাংলা বলি" },
-        { "id": "l1_u20_p2", "english": "Can you repeat that?", "bengali": "Abar bolben?", "script": "আবার বলবেন?" },
-        { "id": "l1_u20_p3", "english": "Please speak slowly", "bengali": "Dhire bolun", "script": "ধীরে বলুন" },
-        { "id": "l1_u20_p4", "english": "I don't understand", "bengali": "Aami bujhi na", "script": "আমি বুঝি না" },
-        { "id": "l1_u20_p5", "english": "What is this called?", "bengali": "Eitake ki bole?", "script": "এটাকে কি বলে?" },
-        { "id": "l1_u20_p6", "english": "Wait a moment", "bengali": "Ektu dharan", "script": "একটু দাঁড়ান" },
-        { "id": "l1_u20_p7", "english": "No problem", "bengali": "Somosh-ya nei", "script": "সমস্যা নেই" },
-        { "id": "l1_u20_p8", "english": "I am very happy", "bengali": "Aami khub khushi", "script": "আমি খুব খুশি" },
-        { "id": "l1_u20_p9", "english": "Thank you very much", "bengali": "Onek dhonnobad", "script": "অনেক ধন্যবাদ" },
-        { "id": "l1_u20_p10", "english": "I will go now", "bengali": "Aami ekhon jabo", "script": "আমি এখন যাবো" }
+        { "id": "l1_u20_p1", "english": "I speak a little Bengali", "bengali": "Aami olpo Bangla boli", "script": "আমি অল্প বাংলা বলি", "prompt": { "english": "Say: I speak a little Bengali", "bengali": "Bangla", "script": "বাংলা" } },
+        { "id": "l1_u20_p2", "english": "Can you repeat that?", "bengali": "Abar bolben?", "script": "আবার বলবেন?", "prompt": { "english": "Ask: Can you repeat that?", "bengali": "Anurodh", "script": "অনুরোধ" } },
+        { "id": "l1_u20_p3", "english": "Please speak slowly", "bengali": "Dhire bolun", "script": "ধীরে বলুন", "prompt": { "english": "Request: Please speak slowly", "bengali": "Anurodh", "script": "অনুরোধ" } },
+        { "id": "l1_u20_p4", "english": "I don't understand", "bengali": "Aami bujhi na", "script": "আমি বুঝি না", "prompt": { "english": "Say: I don't understand", "bengali": "Bujhini", "script": "বুঝিনি" } },
+        { "id": "l1_u20_p5", "english": "What is this called?", "bengali": "Eitake ki bole?", "script": "এটাকে কি বলে?", "prompt": { "english": "Ask: What is this called?", "bengali": "Proshno", "script": "প্রশ্ন" } },
+        { "id": "l1_u20_p6", "english": "Wait a moment", "bengali": "Ektu dharan", "script": "একটু দাঁড়ান", "prompt": { "english": "Request: Wait a moment", "bengali": "Opekkha", "script": "অপেক্ষা" } },
+        { "id": "l1_u20_p7", "english": "No problem", "bengali": "Somosh-ya nei", "script": "সমস্যা নেই", "prompt": { "english": "Say: No problem", "bengali": "Somoshya", "script": "সমস্যা" } },
+        { "id": "l1_u20_p8", "english": "I am very happy", "bengali": "Aami khub khushi", "script": "আমি খুব খুশি", "prompt": { "english": "Say: I am very happy", "bengali": "Mon", "script": "মন" } },
+        { "id": "l1_u20_p9", "english": "Thank you very much", "bengali": "Onek dhonnobad", "script": "অনেক ধন্যবাদ", "prompt": { "english": "Say: Thank you very much", "bengali": "Kritoggota", "script": "কৃতজ্ঞতা" } },
+        { "id": "l1_u20_p10", "english": "I will go now", "bengali": "Aami ekhon jabo", "script": "আমি এখন যাবো", "prompt": { "english": "Say: I will go now", "bengali": "Biday", "script": "বিদায়" } }
       ]
     }
   ]
