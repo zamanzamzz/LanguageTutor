@@ -5,7 +5,7 @@ import '../../services/recorder_service.dart';
 import 'recorder_unit_screen.dart';
 
 class RecorderHomeScreen extends StatelessWidget {
-  const RecorderHomeScreen({Key? key}) : super(key: key);
+  const RecorderHomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

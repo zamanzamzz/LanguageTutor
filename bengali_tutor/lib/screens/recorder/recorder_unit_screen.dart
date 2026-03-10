@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:audioplayers/audioplayers.dart';
 import '../../models/content_models.dart';
 import '../../services/recorder_service.dart';
@@ -9,7 +8,7 @@ import 'package:path_provider/path_provider.dart';
 class RecorderUnitScreen extends StatefulWidget {
   final Unit unit;
 
-  const RecorderUnitScreen({Key? key, required this.unit}) : super(key: key);
+  const RecorderUnitScreen({super.key, required this.unit});
 
   @override
   State<RecorderUnitScreen> createState() => _RecorderUnitScreenState();

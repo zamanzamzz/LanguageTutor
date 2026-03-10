@@ -6,7 +6,7 @@ import '../providers/app_provider.dart';
 class PhraseCard extends StatelessWidget {
   final Phrase phrase;
 
-  const PhraseCard({Key? key, required this.phrase}) : super(key: key);
+  const PhraseCard({super.key, required this.phrase});
 
   @override
   Widget build(BuildContext context) {
@@ -78,10 +78,10 @@ class PhraseCard extends StatelessWidget {
                             vertical: 2,
                           ),
                           decoration: BoxDecoration(
-                            color: Colors.teal.withOpacity(0.05),
+                            color: Colors.teal.withValues(alpha: 0.05),
                             borderRadius: BorderRadius.circular(4),
                             border: Border.all(
-                              color: Colors.teal.withOpacity(0.2),
+                              color: Colors.teal.withValues(alpha: 0.2),
                             ),
                           ),
                           child: Text(

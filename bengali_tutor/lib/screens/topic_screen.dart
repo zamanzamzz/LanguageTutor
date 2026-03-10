@@ -7,7 +7,7 @@ import '../widgets/phrase_card.dart';
 class TopicScreen extends StatelessWidget {
   final Unit unit;
 
-  const TopicScreen({Key? key, required this.unit}) : super(key: key);
+  const TopicScreen({super.key, required this.unit});
 
   @override
   Widget build(BuildContext context) {

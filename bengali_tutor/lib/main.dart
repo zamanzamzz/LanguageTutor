@@ -4,7 +4,6 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'providers/app_provider.dart';
 import 'services/progress_service.dart';
-import 'services/tts_service.dart';
 import 'screens/home_screen.dart';
 
 void main() async {
@@ -26,7 +25,7 @@ void main() async {
 }
 
 class BengaliTutorApp extends StatelessWidget {
-  const BengaliTutorApp({Key? key}) : super(key: key);
+  const BengaliTutorApp({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -6,8 +6,7 @@ class AudioButton extends StatelessWidget {
   final String textToSpeak;
   final Color? color;
 
-  const AudioButton({Key? key, required this.textToSpeak, this.color})
-    : super(key: key);
+  const AudioButton({super.key, required this.textToSpeak, this.color});
 
   @override
   Widget build(BuildContext context) {

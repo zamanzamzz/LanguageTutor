@@ -7,13 +7,13 @@ import '../widgets/audio_button.dart';
 class RoleplayScreen extends StatefulWidget {
   final Scenario scenario;
 
-  const RoleplayScreen({Key? key, required this.scenario}) : super(key: key);
+  const RoleplayScreen({super.key, required this.scenario});
 
   @override
-  _RoleplayScreenState createState() => _RoleplayScreenState();
+  RoleplayScreenState createState() => RoleplayScreenState();
 }
 
-class _RoleplayScreenState extends State<RoleplayScreen> {
+class RoleplayScreenState extends State<RoleplayScreen> {
   late DialogueStep currentStep;
   // Mix of DialogueStep (Tutor) and ResponseOption (User)
   final List<dynamic> history = []; 
@@ -245,7 +245,7 @@ class _RoleplayScreenState extends State<RoleplayScreen> {
                 ],
               ),
             ),
-          )).toList(),
+          )),
         ],
       ),
     );

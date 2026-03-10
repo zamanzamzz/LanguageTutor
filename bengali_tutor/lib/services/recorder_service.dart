@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'package:record/record.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:archive/archive_io.dart';
 import 'package:share_plus/share_plus.dart';
 
@@ -63,9 +62,12 @@ class RecorderService {
     encoder.close();
 
     if (count > 0) {
-      await Share.shareXFiles([
-        XFile(zipPath),
-      ], text: 'Bengali Tutor Recordings ($count files)');
+      await SharePlus.instance.share(
+        ShareParams(
+          files: [XFile(zipPath)],
+          text: 'Bengali Tutor Recordings ($count files)',
+        ),
+      );
     }
   }
 }
