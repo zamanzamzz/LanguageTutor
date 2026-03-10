@@ -45,7 +45,7 @@ class AudioService {
     }
 
     // 4. Fallback to TTS
-    await _flutterTts.setSpeechRate(slow ? 0.3 : 0.5);
+    await _flutterTts.setSpeechRate(slow ? 0.1 : 0.5);
     await _flutterTts.speak(phrase.bengaliScript);
   }
 
